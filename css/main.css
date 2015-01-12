@@ -1,0 +1,137 @@
+/* CSS DOC */
+	
+	@charset "UTF-8";
+
+/* Resets */
+
+	html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img, img:link {
+		border: none;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+	}
+
+	* {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Font */
+
+.claim {
+	
+	font-family: 'Open Sans', sans-serif;
+		font-weight: 200;
+	color: white;
+	font-size: 33px;
+	margin-left: 180px;
+	margin-top: 30px;
+}
+
+.description {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	color: white;
+	font-size: 15px;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+
+/* Layout */
+
+
+body {
+	
+	background-color: #db3951;
+}
+.logo {
+	
+	margin-left: 180px;
+	margin-top: 80px;
+	
+}
+
+.apple{
+	margin-top: 270px;
+	float:left;
+	margin-left: 180px;
+	
+}
+
+
+.iphone{
+margin-top: -240px;
+	margin-right: 200px;
+float: right;
+}
+
+.menu{
+	float: left;
+	background-color: black;
+	opacity: 0.4;
+	width: 100%;
+	height: 70px;
+	margin-top: 55px;
+	
+	}
+	
+	.iconbox {
+		width: 35%;
+	height: 70px;
+	
+	margin-top: 8px;
+	margin-left: 470px;
+	
+
+
+		
+	}
+	
+	.video{
+		
+		float: left;
+		
+	
+	}
+	
+	.structure{
+		
+		float:right;
+		margin-left: 150px;
+	}
+	
+	.mail{
+		float: right;
+		margin-left: 150px;				
+	}
+	
+.menufont {
+	color: #db3951;
+	font-family: 'Open Sans', sans-serif;
+	
+	}
+	
+	.videofont{
+		float:left;
+		margin-right: 135px;
+		
+	}
+	.structurefont{
+		float: left;
+	margin-right: 137px;
+	
+		
+	}
+	
+	
+	.mailfont{
+	
+						
+	}
+
+	
+
+	
+	
