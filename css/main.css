@@ -25,8 +25,8 @@
 		font-weight: 200;
 	color: white;
 	font-size: 33px;
-	margin-left: 180px;
-	margin-top: 30px;
+	margin-left: 15%;
+	margin-top: 280px;
 }
 
 .description {
@@ -35,9 +35,59 @@
 	font-weight: 200;
 	color: white;
 	font-size: 15px;
-	margin-left: 180px;
-	margin-top: 20px;
+	margin-left: 15%;
+	margin-top: 18px;
 }
+
+h3 {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #db3951;
+	font-size: 12px;
+	margin-top: 6px;
+	text-decoration: none;
+}
+
+
+#navfonthome{
+	text-align: center;
+	margin-top: -17px;
+	text-decoration: none;
+	
+   
+	
+}
+
+#navfontvideo{
+	text-align: center;
+	margin-top: -11px;
+	text-decoration: none;
+	
+   
+	
+}
+
+#navfontstructure{
+	text-align: center;
+	margin-top: -14px;
+	text-decoration: none;
+	
+}
+#navfontcontact{
+	text-align: center;
+	margin-top: -7px;
+	text-decoration: none;
+	
+}
+
+#navfonthilfe{
+	text-align: center;
+	margin-top: -16px;
+	text-decoration: none;
+	
+}
+
 
 /* Layout */
 
@@ -45,93 +95,219 @@
 body {
 	
 	background-color: #db3951;
-}
-.logo {
 	
-	margin-left: 180px;
-	margin-top: 80px;
+
+	}
+	
+.row1 {
+ background-color: #8e263a;
+opacity: 1;
+width: 100%;
+float: left;
+height: 64px;
+position: fixed;
+}
+		
+		.r1c1{
+		
+		width: 20%;
+		height: 64px;
+		float: left;
+		}
+		.r1c2{
+		
+		width: 20%;
+		height: 64px;
+		float: left;
+		
+		}.r1c3{
+		
+		width: 20%;
+		height: 64px;
+		float: left;
+		}.r1c4{
+		
+		width: 20%;
+		height: 64px;
+		float: left;
+		}.r1c5{
+		
+		width: 20%;
+		height: 64px;
+		float: left;
+		}
+		
+		
+		.home{
+	
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;	
 	
 }
 
+.videoiconred{
+	
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;	
+	
+}
+
+.structureiconred{
+display: block;
+	margin-top: 11px;
+	margin-left: auto;
+    margin-right: auto;
+}	
+
+.mailiconred{
+display: block;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+	
+}			
+
+.hilfeicon{
+	
+	display: block;
+	margin-top: 5px;
+	margin-left: auto;
+    margin-right: auto;	
+	
+}
+
+		
+
+		
+		
+		.r1c1:hover {
+			transition: background-color 0.7s ease;
+			background-color: #541826;
+		}
+		.r1c2:hover {
+			transition: background-color 0.7s ease;
+			background-color: #541826;
+		}
+		
+		.r1c3:hover {
+			transition: background-color 0.7s ease;
+			background-color: #541826;
+		}
+		
+		.r1c4:hover {
+			transition: background-color 0.7s ease;
+			background-color: #541826;
+		}
+		.r1c5:hover {
+			transition: background-color 0.7s ease;
+			background-color: #541826;
+		}
+		
+		
+		
+.row2 {
+	
+	background-color: #db3951;
+	float: left;
+}
+		
+		.r2c1{
+		
+		width: 60%;
+		height: 750px;
+		float: left;
+	
+		}
+		
+		.r2c2{
+		
+		width: 40%;
+		height: 750px;
+		float: left;
+	
+		}
+		
+		
+		
+.logo{
+	
+	width: 9%;
+	margin-left: 15%;
+	margin-top: 110px;
+	float: left;
+	
+}
+		
 .apple{
+	width: 340px;
+	margin-left: 15%;
 	margin-top: 270px;
-	float:left;
-	margin-left: 180px;
 	
 }
-
 
 .iphone{
-margin-top: -240px;
-	margin-right: 200px;
-float: right;
+	width: 80%;
+	margin-top: 135px;
+	margin-right: 17%;	
+	float: left;
 }
 
-.menu{
-	float: left;
-	background-color: black;
-	opacity: 0.4;
+.row3{
 	width: 100%;
-	height: 70px;
-	margin-top: 55px;
+	margin-top: 580px;
+	float: left;
+}
+.vimeoembed{
+	margin-top: -200px;
+	margin-left: 25%;
+	margin-right: 20%;
 	
-	}
 	
-	.iconbox {
-		width: 35%;
-	height: 70px;
 	
-	margin-top: 8px;
-	margin-left: 470px;
-	
-
-
+}
 		
-	}
-	
-	.video{
 		
-		float: left;
 		
-	
-	}
-	
-	.structure{
-		
-		float:right;
-		margin-left: 150px;
-	}
-	
-	.mail{
-		float: right;
-		margin-left: 150px;				
-	}
-	
-.menufont {
-	color: #db3951;
-	font-family: 'Open Sans', sans-serif;
-	
-	}
-	
-	.videofont{
+	.whiteBG{
+		background-color: white;
+		width: 100%;
+		height: 720px;
 		float:left;
-		margin-right: 135px;
+		margin-top: -650px;
+	}
+	
+.row4{
+	background-color: #db3951;
+	width: 100%;
+	height: 720px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	
+}	
 		
-	}
-	.structurefont{
-		float: left;
-	margin-right: 137px;
-	
 		
-	}
-	
-	
-	.mailfont{
-	
-						
-	}
-
-	
-
-	
-	
+		.isometric{
+			width: 70%;
+			margin-top: 20px;
+			margin-left: 12%;
+			
+		}
+		
+		
+		a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-top: -44px;
+}
+		
+		
+		
+		
+		
